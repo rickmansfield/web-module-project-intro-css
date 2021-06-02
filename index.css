@@ -64,7 +64,7 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 h1{
-    font-family: 'Chealsea Market', cursive;
+    font-family: 'Chelsea Market', cursive;
     font-size: 6rem;
 }
 section{
@@ -103,7 +103,8 @@ nav a{
 /* Top Sections Styles */
 .top{
     position: relative;
-}
+} 
+/* the code above ensures the elements (example: with .right class) "floats" relative to the rest of the elements*/
 
 .left, .right{
     display: inline-block;
@@ -133,4 +134,30 @@ nav a{
     background-size: cover;
     background-position: top;
 
+}
+/* main area  */
+.mainText{
+    background-color: #DDB9A3;
+    color:white;
+    padding:2%;
+}
+.fireAndCamper{
+    width:30%;
+    margin:5% auto;
+}
+.bold{
+    font-weight:bold;
+}
+
+/* Footer Styles */
+.backgroundImage{
+    background-image: url('assets/footer_img.jpg');
+    height:40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width:100%;
+}
+footer{
+    background-color:#F9E7DC;
 }
